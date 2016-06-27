@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<section class="jumbotron jumbotron-fluid site-small-jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="display-4">{{ page.page_category | capitalize }}</h1>
+        <h2>{{ page.title | capitalize }}</lead>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <article class="page">
+        <div class="page-content">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </div>
+</section>

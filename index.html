@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<section class="jumbotron jumbotron-fluid site-big-jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="display-4">{{ site.frontpage.header }}</h1>
+        <lead>{{ site.frontpage.lead }}</lead>
+      </div>
+    </div>
+  </div>
+</section>
+{% assign sections = site.frontpage_sections | sort: 'order' %}
+{% for section in sections %}
+<section class="container-fluid frontpage-section" style="background-color: {{ section.background_color }}; color: {{ section.text-color }};">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <h2 class="frontpage-section-title">{{ section.title }}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2 frontpage-section-content">
+      {{ section.content }}
+    </div>
+  </div>
+</section>
+{% endfor %}
