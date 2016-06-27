@@ -1,7 +1,7 @@
 ---
 title: Problems we aim to solve
-background-color: \#fff
-text-color: \#222
+background_color: rgba(40,40,40,0.1)
+text-color: rgb(0,0,0)
 order: 3
 ---
 

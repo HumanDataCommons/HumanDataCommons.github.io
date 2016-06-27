@@ -51,12 +51,27 @@ html, body {
 .site-big-jumbo {
   height: calc(100% - 56px);
   padding:10% 0;
+  margin-bottom:0;
 }
 
 .site-small-jumbo {
   min-height: 40%;
   padding: 10% 0 5%;
 }
+
+/**
+ * Frontpage Sections
+ */
+
+ .frontpage-section {
+  .frontpage-section-title {
+    margin: 2ex 0 3ex;
+    font-size: 2em;
+  }
+  .frontpage-section-content {
+    margin-bottom: 8ex;
+  }
+ }
 
 /**
  * Site footer
