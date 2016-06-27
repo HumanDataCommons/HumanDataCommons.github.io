@@ -27,5 +27,8 @@ frontpage:
     with the opportunity to contribute it to research
     on collective well-being
 
+collections:
+- frontpage_sections
+
 # Build settings
 markdown: kramdown
