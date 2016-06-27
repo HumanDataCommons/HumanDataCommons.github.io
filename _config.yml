@@ -17,5 +17,15 @@ url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Frontpage settings
+frontpage:
+  header: >
+    Instilling data collection practices with
+    integrity and freedom
+  lead: >
+    Reclaim agency over your personal information,
+    with the opportunity to contribute it to research
+    on collective well-being
+
 # Build settings
 markdown: kramdown
