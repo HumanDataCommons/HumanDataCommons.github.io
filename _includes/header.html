@@ -4,23 +4,27 @@
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#links">&#9776</button>
     <div class="collapse navbar-toggleable-xs" id="links">
       <ul class="nav navbar-nav pull-md-right">
+        <!--  Page Links -->
         {% assign page_lists = site.pages | group_by:"page_category"%}
         {% for my_page_list in page_lists %}
         {% if my_page_list.name != '' %}
-        <li class="nav-item">
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ my_page_list.name | capitalize }}
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-              {% for my_page in my_page_list.items %}
-              <a class="dropdown-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | capitalize }}</a>
-              {% endfor %}
-            </div>
+        <li class="nav-item dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{ my_page_list.name | capitalize }}
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            {% for my_page in my_page_list.items %}
+            <a class="dropdown-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | capitalize }}</a>
+            {% endfor %}
           </div>
         </li>
         {% endif %}
         {% endfor %}
+
+        <!--  Blog Link -->
+        <li class="nav-item pull">
+          <a href="/blog" class="nav-link">Blog</a>
+        </li>
       </ul>
     </div>
   </nav>

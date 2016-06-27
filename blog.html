@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<section class="jumbotron jumbotron-fluid site-small-jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="display-4">Blog</h1>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="container">
+  <ul class="row post-list">
+    {% for post in site.posts %}
+    <li class="col-md-4">
+      <a class="card card-block text-xs-left post-block" href="{{ post.url | prepend: site.baseurl }}">
+        <h6 class="card-subtitle post-meta">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        <h2 class="card-title">{{ post.title }}</h2>
+        <p class="card-text post-excerpt">{{ post.excerpt | truncatewords: 20}}</p>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
