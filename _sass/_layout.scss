@@ -55,8 +55,8 @@ html, body {
 }
 
 .site-small-jumbo {
-  min-height: 40%;
-  padding: 10% 0 5%;
+  min-height: 20%;
+  padding: 5% 0 5%;
 }
 
 /**
@@ -104,6 +104,11 @@ html, body {
     font-size: 20px;
 }
 
+
+/**
+ * Post Links
+ */
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -113,21 +118,23 @@ html, body {
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
+.post-link {
+  .post-link-title, p {
+    color: $text-color;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
-.post-link {
-    display: block;
-    font-size: 24px;
-}
 
 
 
 /**
- * Posts
+ * Post
  */
+
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -140,6 +147,11 @@ html, body {
     @include media-query($on-laptop) {
         font-size: 36px;
     }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
 }
 
 .post-content {
