@@ -1,6 +1,6 @@
 ---
 title: Mission and Vision
-background_color: rgba(40,40,40,0)
+background_color: rgb(33, 133, 141)
 text-color: rgb(0,0,0)
 order: 2
 ---
