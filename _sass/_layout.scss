@@ -27,6 +27,7 @@ html, body {
  */
 .site-header {
     height: 6rem;
+    background-color: rgba(76, 88, 98, 0.91);
 }
 
 .site-title {
@@ -76,12 +77,13 @@ svg {
       color: $text-color;
       line-height: $base-line-height;
 
-      .site-nav-dropdown button,
-      li > a {
+      .nav-item button,
+      .nav-item > a {
         border: none;
         border-radius:0;
         padding: 0.5rem 0 2px;
         margin: 0 1rem;
+        color: #fff;
 
         &, &:active, &:hover, &:focus {
           background-color: transparent;
@@ -89,6 +91,7 @@ svg {
 
         &:hover, &:focus {
           border-bottom: 3px solid #333;
+          color: #fff;
         }
       }
 
@@ -112,7 +115,7 @@ svg {
   height: calc(100% - 6rem);
   padding:10% 0;
   margin-bottom:0;
-  background-color: transparent;
+  background-color: #fff;
   h1 {
     font-weight: 400;
     color: $hdc-first;
@@ -166,6 +169,8 @@ svg {
    }
  }
 
+
+
 /**
  * Site footer
  */
@@ -207,6 +212,10 @@ svg {
 /**
  * Post Links
  */
+
+section.blogpage-section {
+  background-color: #fff;
+}
 
 .post-list {
     margin-left: 0;
