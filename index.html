@@ -7,13 +7,14 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
+        <h1>Human Data Commons Foundation:</h1>
         <h1 class="display-4">{{ site.frontpage.header }}</h1>
         <h4>{{ site.frontpage.lead }}</h4>
       </div>
     </div>
   </div>
 </section>
-{% assign sections = site.frontpage_sections | sort: 'order' %}
+<!-- {% assign sections = site.frontpage_sections | sort: 'order' %}
 {% for section in sections %}
 <section class="container-fluid frontpage-section {{ section.css-class }}" style="background-color: {{ section.background_color }}; color: {{ section.text-color }};">
   <div class="row">
@@ -27,4 +28,4 @@ layout: default
     </div>
   </div>
 </section>
-{% endfor %}
+{% endfor %} -->
