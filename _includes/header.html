@@ -8,24 +8,17 @@
       <div class="collapse navbar-toggleable-xs" id="links">
         <ul class="nav navbar-nav pull-md-right site-nav-links">
           <!--  Page Links -->
-          {% assign page_lists = site.pages | group_by:"page_category"%}
-          {% for my_page_list in page_lists %}
-          {% if my_page_list.name != '' %}
-          <li class="nav-item dropdown site-nav-dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              {{ my_page_list.name | capitalize }}
-            </button>
-            <div class="dropdown-menu site-nav-dropdown-menu" aria-labelledby="dropdownMenu1">
-              {% for my_page in my_page_list.items %}
-              <a class="dropdown-item" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | capitalize }}</a>
-              {% endfor %}
-            </div>
+          {% assign sections = site.frontpage_sections | sort: 'order' %}
+          {% for section in sections %}
+          {% if section.title != '' %}
+          <li class="nav-item">
+            <a href="{{ section.title | slugify | prepend: '#' }}" class="nav-link">{{ section.title | capitalize }}</a>
           </li>
           {% endif %}
           {% endfor %}
 
           <!--  Blog Link -->
-          <li class="nav-item pull">
+          <li class="nav-item">
             <a href="/blog" class="nav-link">Blog</a>
           </li>
         </ul>

@@ -15,7 +15,7 @@ layout: default
 </section>
 {% assign sections = site.frontpage_sections | sort: 'order' %}
 {% for section in sections %}
-<section class="container-fluid frontpage-section {{ section.css-class }}" style="background-color: {{ section.background_color }}; color: {{ section.text-color }};">
+<section id="{{ section.title | slugify }}" class="container-fluid frontpage-section {{ section.css-class }}" style="background-color: {{ section.background_color }}; color: {{ section.text-color }};">
   <div class="row">
     <div class="col-md-8 col-md-offset-3">
       <h2 class="frontpage-section-title">{{ section.title }}</h2>
