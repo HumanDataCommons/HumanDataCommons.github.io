@@ -19,7 +19,7 @@
     .data(voronoi.triangles(vertices))
     .enter().append('path')
     .attr('d', d => 'M'+d.join('L') + 'Z')
-    .attr('fill', d => d3.rgb(00, 64, 86, rand_color()).toString())
+    // .attr('fill', d => d3.rgb(00, 64, 86, rand_color()).toString())
 
 
 })(d3)

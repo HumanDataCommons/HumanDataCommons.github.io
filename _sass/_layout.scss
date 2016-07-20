@@ -27,7 +27,8 @@ html, body {
  */
 .site-header {
     height: 6rem;
-    background-color: rgba(76, 88, 98, 0.91);
+    background-color: #fff;
+    border-bottom: 1px solid transparentize($hdc-second, 0.9);
 }
 
 .site-title {
@@ -52,9 +53,9 @@ svg {
   left:0;
   z-index: 0;
   #lines {
-    fill: none;
+    fill: transparent;
     path {
-      stroke: rgba(33, 133, 141, 0.2);
+      stroke: transparentize($hdc-second, 0.9);
       stroke-linejoin: "round";
       stroke-width: 0.1;
     }
@@ -82,8 +83,8 @@ svg {
         border: none;
         border-radius:0;
         padding: 0.5rem 0 2px;
-        margin: 0 1rem;
-        color: #fff;
+        margin: 0 0.3rem;
+        color: #555;
 
         &, &:active, &:hover, &:focus {
           background-color: transparent;
@@ -91,7 +92,7 @@ svg {
 
         &:hover, &:focus {
           border-bottom: 3px solid #333;
-          color: #fff;
+          color: #555;
         }
       }
 
@@ -135,6 +136,7 @@ svg {
  */
 
  .frontpage-section {
+   color: $hdc-first;
   .frontpage-section-title {
     margin: 3rem 0 2rem;
     font-size: 2em;
@@ -170,13 +172,23 @@ svg {
  }
 
  .section-vision {
+   .section-vision-text {
+     padding-bottom: 5rem;
+   }
    .card-group {
      width: 100%;
+     display: flex;
      .card {
        background-color: transparent;
        border: none;
+       display: flex;
+       p {
+         font-size: 0.9rem;
+       }
        img {
-         max-height: 10rem;
+         max-height: 8rem;
+         margin: 0;
+         filter: hue-rotate(30);
        }
      }
    }

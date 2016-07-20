@@ -1,6 +1,6 @@
 ---
 title: About Us
-background_color: rgba(0, 64, 86, 0.9)
+background_color: rgba(0, 0, 0, 0.1)
 text-color: rgb(0,0,0)
 order: 2
 ---

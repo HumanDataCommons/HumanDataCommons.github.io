@@ -4,9 +4,9 @@ layout: default
 
 <section id="front" class="jumbotron jumbotron-fluid site-big-jumbo">
   <svg></svg>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1">
+      <div class="col-md-8 col-md-offset-2">
         <h1 class="display-4">{{ site.frontpage.header }}</h1>
         <h4>{{ site.frontpage.lead }}</h4>
       </div>
@@ -17,12 +17,12 @@ layout: default
 {% for section in sections %}
 <section id="{{ section.title | slugify }}" class="container-fluid frontpage-section {{ section.css-class }}" style="background-color: {{ section.background_color }}; color: {{ section.text-color }};">
   <div class="row">
-    <div class="col-md-8 col-md-offset-3">
+    <div class="col-md-8 col-md-offset-2">
       <h2 class="frontpage-section-title">{{ section.title }}</h2>
     </div>
   </div>
   <div class="row">
-    {% assign size = section.size | default: 6 %}
+    {% assign size = section.size | default: 8 %}
     {% assign offset = 12 | minus: size | divided_by: 2 %}
     <div class="col-md-{{ size }} col-md-offset-{{ offset | abs }} frontpage-section-content">
       {{ section.content }}
