@@ -22,7 +22,9 @@ layout: default
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6 col-md-offset-3 frontpage-section-content">
+    {% assign size = section.size | default: 6 %}
+    {% assign offset = 12 | minus: size | divided_by: 2 %}
+    <div class="col-md-{{ size }} col-md-offset-{{ offset | abs }} frontpage-section-content">
       {{ section.content }}
     </div>
   </div>

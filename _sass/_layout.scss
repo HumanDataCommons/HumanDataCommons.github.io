@@ -169,6 +169,20 @@ svg {
    }
  }
 
+ .section-vision {
+   .card-group {
+     width: 100%;
+     .card {
+       background-color: transparent;
+       border: none;
+       img {
+         max-height: 10rem;
+       }
+     }
+   }
+
+ }
+
 
 
 /**
