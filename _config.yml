@@ -7,11 +7,11 @@
 
 # Site settings
 title: Human Data Commons Foundation
-email: your-email@domain.com
+email: info@humandatacommons.org
 description: >
   Reclaim agency over your personal information,
   with the opportunity to contribute it to research
-  on collective well-being 
+  on collective well-being
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
