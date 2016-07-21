@@ -117,12 +117,25 @@ svg {
   padding:5% 0;
   margin-bottom:0;
   background-color: #fff;
-  h1 {
+  h1, h4 {
+    background-color: #575757;
+    padding: 1rem;
+    border-radius: 1rem;
+    /* border-bottom-left-radius: 0; */
+  }
+  h1.display-4 {
     font-size: 3rem;
-    color: $hdc-first;
+    font-weight: 100;
+    color: $hdc-third;
+    margin-bottom: 0.5rem;
+    padding-right: 0.4rem;
+    width: 90%;
   }
   h4 {
     width: 80%;
+    color: #fff;
+    color: rgba(84, 83, 83, 0.7);
+    background-color: #fff;
   }
 }
 
