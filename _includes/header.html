@@ -10,7 +10,7 @@
           <!--  Page Links -->
           {% assign sections = site.frontpage_sections | sort: 'order' %}
           {% for section in sections %}
-          {% if section.title != '' %}
+          {% if section.link %}
           <li class="nav-item">
             <a href="{{ section.title | slugify | prepend: '#' }}" class="nav-link">{{ section.title | capitalize }}</a>
           </li>

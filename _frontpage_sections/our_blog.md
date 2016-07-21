@@ -1,6 +1,6 @@
 ---
 title: Our Blog
-background_color: rgba(40,40,40,0.1)
+background_color: rgba(200,200,200,0.5)
 text-color: rgb(0,0,0)
 order: 6
 ---

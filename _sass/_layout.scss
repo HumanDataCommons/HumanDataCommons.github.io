@@ -146,30 +146,6 @@ svg {
   }
  }
 
- .problems-list {
-    ul {
-     display:flex;
-     padding: 0;
-     align-content: space-between;
-     flex-direction: column;
-     flex-wrap: wrap;
-     li {
-       display:flex;
-       height: 100%;
-       width: 100%;
-       p {
-         display: flex;
-         flex-direction: column;
-         max-width: 30rem;
-         em {
-           font-weight:bold;
-           font-size: 1.2rem;
-           margin: 0.1rem 0;
-         }
-       }
-     }
-   }
- }
 
  .section-vision {
    .section-vision-text {
@@ -178,6 +154,7 @@ svg {
    .card-group {
      width: 100%;
      display: flex;
+
      .card {
        background-color: transparent;
        border: none;
@@ -192,7 +169,72 @@ svg {
        }
      }
    }
+ }
 
+ .section-mission {
+   .mission-block {
+     h3 {
+       em {
+         font-size: 1.2rem;
+         display: block;
+         padding: 1rem 0;
+         &::after {
+            height: 0.5rem;
+            background: linear-gradient(45deg,rgba(0, 210, 255, 0.22), #01AADA);
+            content: "";
+            display: block;
+            margin: 10px 0 -0.5rem;
+            border-radius: 5px;
+          }
+       }
+     }
+     @for $i from 1 through 3 {
+       &:nth-child(#{$i}) h3 em::after {
+         width: (33%*$i);
+         background: linear-gradient(45deg,rgba(0, 210, 255, 0.22), $hdc-second);
+       }
+     }
+   }
+ }
+
+ .section-problems {
+   .card-problem {
+     background-color: transparent;
+     border: 1px solid $hdc-third;
+     border-radius: 1rem;
+     .card-block {
+       padding-top: 2rem;
+       height: 12rem;
+     }
+     .card-block-solution {
+       background-color: $hdc-third;
+       color: #fff;
+       border-bottom-left-radius: 1rem;
+       border-bottom-right-radius: 1rem;
+     }
+   }
+ }
+
+ .section-help {
+   .card-help {
+     display: flex;
+     flex-direction: row;
+     width:100%;
+     align-items:center;
+     border:none;
+     background-color: transparent;
+     .card-img {
+       height:5rem;
+       max-width:5rem;
+     }
+     .card-block {
+       display: flex;
+       padding: 0.5rem 1rem;
+       .card-title {
+         font-size: 1rem;
+       }
+     }
+   }
  }
 
 
