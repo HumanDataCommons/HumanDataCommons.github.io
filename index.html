@@ -7,8 +7,11 @@ layout: default
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h1 class="display-4">{{ site.frontpage.header }}</h1>
-        <h4>{{ site.frontpage.lead }}</h4>
+        <header>
+          <h1 class="display-5">{{ site.title }}</h1>
+          <h2 class="display-5">{{ site.frontpage.header }}</h2>
+        </header>
+        <h4 class="display-5 hidden-xs-down">{{ site.frontpage.lead }}</h4>
       </div>
     </div>
   </div>

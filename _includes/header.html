@@ -4,8 +4,7 @@
       <a class="navbar-brand site-nav-brand" href="{{ site.baseurl }}/">
         <img src="/images/logo/logo_v1.png" alt="{{ site.title }}">
       </a>
-      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#links">&#9776</button>
-      <ul class="nav navbar-nav pull-md-right site-nav-links">
+      <ul class="nav navbar-nav hidden-md-down pull-md-right site-nav-links">
         {% assign sections = site.frontpage_sections | sort: 'order' %}
         {% for section in sections %}
         {% if section.link %}

@@ -62,17 +62,19 @@ svg {
   }
 }
 
+.site-nav {
+  padding: 2rem 0;
+  .site-nav-brand {
+    padding: 0;
+    img {
+      height: 35px;
+    }
+  }
+}
+
 @media screen and (min-width:$on-palm)  {
 
   .site-nav {
-    padding: 2rem 0;
-    .site-nav-brand {
-      padding: 0;
-      img {
-        height: 35px;
-      }
-    }
-
     .site-nav-links {
       height: 4rem;
       color: $text-color;
@@ -96,14 +98,6 @@ svg {
         }
       }
 
-      .site-nav-dropdown-menu {
-        border-radius: 0;
-        a, a:hover {
-          color: #333;
-          padding: 0.5rem 1rem;
-        }
-      }
-
       // Gaps between nav items, but not on the last one
       &:not(:last-child) {
         margin-right: 20px;
@@ -117,18 +111,25 @@ svg {
   padding:5% 0;
   margin-bottom:0;
   background-color: #fff;
-  h1, h4 {
+
+  header, h4 {
     background-color: #575757;
     padding: 1rem;
     border-radius: 1rem;
-    /* border-bottom-left-radius: 0; */
-  }
-  h1.display-4 {
-    font-size: 3rem;
-    font-weight: 100;
-    color: $hdc-third;
     margin-bottom: 0.5rem;
     padding-right: 0.4rem;
+  }
+
+  h1 {
+    color: $hdc-third;
+    font-weight: 500;
+    &::after {
+      content: ":"
+    }
+  }
+  h2 {
+    font-weight: 100;
+    color: $hdc-third;
     width: 90%;
   }
   h4 {
@@ -150,10 +151,6 @@ svg {
     padding:10% 0;
     margin-bottom:0;
     background-color: #fff;
-    h1 {
-      font-weight: 400;
-      color: $hdc-first;
-    }
     h4 {
       width: 80%;
     }
@@ -167,7 +164,7 @@ svg {
  .frontpage-section {
    color: $hdc-first;
   .frontpage-section-title {
-    margin: 3rem 0 2rem;
+    padding: 3rem 0 2rem;
     font-size: 2em;
   }
   .frontpage-section-content {
@@ -180,24 +177,24 @@ svg {
    .section-values-text {
      padding-bottom: 5rem;
    }
-   .card-group {
-     width: 100%;
+   .card {
+     background-color: transparent;
+     border: none;
      display: flex;
-
-     .card {
-       background-color: transparent;
-       border: none;
-       display: flex;
-       p {
-         font-size: 0.9rem;
-       }
-       img {
-         max-height: 8rem;
-         margin: 0;
-         filter: hue-rotate(30);
-       }
+     p {
+       font-size: 0.9rem;
+     }
+     img {
+       max-height: 8rem;
+       margin: 0;
+       filter: hue-rotate(30);
      }
    }
+  //  .values-card-group {
+  //    width: 100%;
+  //    display: flex;
+   //
+  //  }
  }
 
  .section-mission {
