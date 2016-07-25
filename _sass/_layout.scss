@@ -67,9 +67,10 @@ html, body {
       .nav-item > a {
         border: none;
         border-radius:0;
-        padding: 0.5rem 0 2px;
+        padding: 0.5rem 0.5rem 2px;
         margin: 0 0.3rem;
         color: #555;
+        text-transform: capitalize;
 
         &, &:active, &:hover, &:focus {
           background-color: transparent;
@@ -230,7 +231,7 @@ html, body {
      border-radius: 1rem;
      .card-block {
        padding-top: 2rem;
-       height: 12rem;
+       min-height: 12rem;
      }
      .card-block-solution {
        background-color: $hdc-third;
@@ -317,20 +318,20 @@ section.blogpage-section {
     margin-left: 0;
     list-style: none;
 
-    > li {
+    & > li {
         margin-bottom: $spacing-unit;
+        display: flex;
+
+        .post-title a{
+          color: $text-color;
+          &:hover {
+            // text-decoration: none
+          }
+        }
     }
+
 }
 
-.post-link {
-  .post-link-title, p {
-    color: $text-color;
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-}
 
 
 /**

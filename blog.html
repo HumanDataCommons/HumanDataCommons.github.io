@@ -16,13 +16,14 @@ layout: default
   <div class="row">
     <ul class="post-list">
       {% for post in site.posts %}
-      <li class="col-md-6 col-xs-12 col-md-offset-2">
-        <a class="card card-block text-xs-left post-link" href="{{ post.url | prepend: site.baseurl }}">
-          <h6 class="card-subtitle post-link-meta">{{ post.date | date: "%b %-d, %Y" }}</h6>
-          <h2 class="card-title post-link-title">{{ post.title }}</h2>
-          <p class="card-text post-link-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
-          <em class="card-text">Read More</em>
-        </a>
+      <li class="card card-block text-xs-left">
+        <h6 class="card-subtitle post-meta">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        <h2 class="card-title post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+          </a>
+        </h2>
+        <p class="card-text post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
       </li>
       {% endfor %}
     </ul>
