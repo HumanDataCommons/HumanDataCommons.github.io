@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-6">
         <header class="footer-heading">
           <img class="footer-brand" src="/images/logo/logo_v1.png" alt="{{ site.title }}">
           <ul class="contact-list">
@@ -12,7 +12,8 @@
           </ul>
         </header>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-6">
+        <p class="footer-sub">{{ site.description }}</p>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -26,9 +27,6 @@
           </li>
           {% endif %}
         </ul>
-      </div>
-      <div class="col-md-6">
-        <p class="footer-sub">{{ site.description }}</p>
       </div>
 
     </div>

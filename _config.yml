@@ -13,9 +13,9 @@ description: >
   with the opportunity to contribute it to research
   on collective well-being
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://humandatacommons.org" # the base hostname & protocol for your site
+twitter_username: hdcommons
+github_username:  HumanDataCommons
 
 # Frontpage settings
 frontpage:

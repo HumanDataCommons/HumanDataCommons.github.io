@@ -45,23 +45,6 @@ html, body {
     }
 }
 
-svg {
-  height: inherit;
-  width: 100%;
-  position:absolute;
-  bottom: 0;
-  left:0;
-  z-index: 0;
-  #lines {
-    fill: transparent;
-    path {
-      stroke: transparentize($hdc-second, 0.9);
-      stroke-linejoin: "round";
-      stroke-width: 0.1;
-    }
-  }
-}
-
 .site-nav {
   padding: 2rem 0;
   .site-nav-brand {
@@ -111,6 +94,23 @@ svg {
   padding:5% 0;
   margin-bottom:0;
   background-color: #fff;
+
+  svg {
+    height: inherit;
+    width: 100%;
+    position:absolute;
+    bottom: 0;
+    left:0;
+    z-index: 0;
+    #lines {
+      fill: transparent;
+      path {
+        stroke: transparentize($hdc-second, 0.9);
+        stroke-linejoin: "round";
+        stroke-width: 0.1;
+      }
+    }
+  }
 
   header, h4 {
     background-color: #575757;
@@ -269,11 +269,10 @@ svg {
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
+  border-top: 1px solid $grey-color-light;
+  padding: $spacing-unit 0;
 
-.footer-heading {
+  .footer-heading {
     margin-bottom: $spacing-unit / 2;
     .footer-brand {
       width: 5rem;
@@ -281,13 +280,16 @@ svg {
     .contact-list {
       padding: 1rem 0;
     }
-}
+  }
 
-.contact-list,
-.social-media-list {
+  .contact-list,
+  .social-media-list {
     list-style: none;
     margin-left: 0;
+    padding-left: 0;
+  }
 }
+
 
 
 /**
