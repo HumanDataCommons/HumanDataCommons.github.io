@@ -26,6 +26,12 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+
+          {% if site.reddit_sub %}
+          <li>
+            {% include icon-reddit.html url=site.reddit_sub username='HDC Curated Multi-reddit' %}
+          </li>
+          {% endif %}
         </ul>
       </div>
 
