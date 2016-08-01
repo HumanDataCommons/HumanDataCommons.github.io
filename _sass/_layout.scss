@@ -269,6 +269,7 @@ html, body {
  * Site footer
  */
 .site-footer {
+  background-color: transparentize($hdc-second, 0.9);
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 
