@@ -21,7 +21,7 @@ layout: default
         <div class="col-md-6">
           <h2 class="card-title post-title">
             <a href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title | truncate: 40 }}
+              {{ post.title }}
             </a>
           </h2>
           <p class="card-text post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
