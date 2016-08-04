@@ -11,8 +11,8 @@ layout: default
     </div>
   </div>
 </section>
-<section class="container-fluid blogpage-section">
-  <ul class="post-list">
+<section class="blogpage-section">
+  <ul class="container-fluid post-list">
     {% for post in site.posts %}
       <li class="post-item row text-xs-left" style="background-color:{{post.background_color}}">
         <div class="col-md-2 col-md-offset-2">
@@ -21,7 +21,7 @@ layout: default
         <div class="col-md-6">
           <h2 class="card-title post-title">
             <a href="{{ post.url | prepend: site.baseurl }}">
-              {{ post.title }}
+              {{ post.title | truncate: 40 }}
             </a>
           </h2>
           <p class="card-text post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
