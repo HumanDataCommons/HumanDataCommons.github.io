@@ -37,8 +37,5 @@ frontpage:
     for academics and researchers to further study
     across all aspects of human health, society, and culture
 
-collections:
-- frontpage_sections
-
 # Build settings
 markdown: kramdown
