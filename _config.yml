@@ -10,14 +10,21 @@ title: Human Data Commons Foundation
 email: info@humandatacommons.org
 description: >
   Reclaim agency over your personal information,
-  with the opportunity to make your data available 
-  for academics and researchers to further study 
+  with the opportunity to make your data available
+  for academics and researchers to further study
   across all aspects of human health, society, and culture
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://humandatacommons.org" # the base hostname & protocol for your site
 twitter_username: hdcommons
 github_username:  HumanDataCommons
 reddit_sub: https://www.reddit.com/user/humandatacommons/m/hdc_foundation/top/
+markdown: kramdown
+
+# Collections
+collections:
+  frontpage_sections:
+  tag_pages:
+    output: true
 
 # Frontpage settings
 frontpage:
@@ -26,8 +33,8 @@ frontpage:
     integrity and freedom
   lead: >
     Reclaim agency over your personal information,
-    with the opportunity to make your data available 
-    for academics and researchers to further study 
+    with the opportunity to make your data available
+    for academics and researchers to further study
     across all aspects of human health, society, and culture
 
 collections:

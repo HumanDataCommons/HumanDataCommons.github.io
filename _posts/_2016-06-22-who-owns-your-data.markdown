@@ -6,6 +6,7 @@ year: 2016
 month: June
 background_color: rgba(40,40,40, 0.1)
 categories: big data
+tags: [tech]
 ---
 Sections:
 

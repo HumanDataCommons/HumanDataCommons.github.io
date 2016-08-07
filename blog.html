@@ -6,7 +6,15 @@ layout: default
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        <h1 class="display-4">Blog - Under Construction</h1>
+        <h1 class="display-4">Blog</h1>
+        <ul class="post-tags-list">
+          {% for tag in site.tag_pages %}
+          <li class="post-tags-item">
+            <p>{{ tag.description }}</p>
+            <a href="{{ tag.url }}">{{ tag.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<section class="jumbotron jumbotron-fluid site-small-jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1 class="display-4">{{ page.name }}</h1>
+        <h2>{{ page.description }}</lead>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="blogpage-section">
+  <ul class="container-fluid post-list">
+    {% for post in site.tags[page.name] %}
+      <li class="post-item row text-xs-left" style="background-color:{{post.background_color}}">
+        <div class="col-md-2 col-md-offset-2">
+          <h6 class="card-subtitle post-date">{{ post.date | date: "%b %-d, %Y" }}</h6>
+        </div>
+        <div class="col-md-6">
+          <h2 class="card-title post-title">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+              {{ post.title | truncate: 40 }}
+            </a>
+          </h2>
+          <p class="card-text post-excerpt">{{ post.excerpt | truncatewords: 20 }}</p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
