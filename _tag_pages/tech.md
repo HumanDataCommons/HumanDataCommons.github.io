@@ -1,7 +1,8 @@
 ---
 layout: tag
 name: 'tech'
-description: 'Technology General'
+bk-color: rgb(20,133,133)
+txt-color: rgb(255,255,255)
 ---
 
-Hello
+Technology General
