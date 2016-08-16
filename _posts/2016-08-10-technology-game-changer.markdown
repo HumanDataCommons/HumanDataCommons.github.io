@@ -5,7 +5,8 @@ date:   2016-06-21 22:05:34 -0700
 year: 2016
 month: August
 background_color: rgba(40,40,40, 0.1)
-categories: philosophy
+tags: [techshift]
+author: Chelsea Palmer
 ---
 It seems increasingly easy these days to be a technodeterminist-- i.e., someone who thinks that technological innovations exert the dominant influence on humanity's immediate future. After all, the development of computers seems to have triggered an urgent gold rush of invention and communication. Hey, I'm sure during the rise of factories a number of thinkers were industrial determinists. Information and communication technology just happen to be the rapid current rushing through our own time, seeming to push things ahead all around us. Discussions of 'technology as a game changer' proliferate online and in person. 
 
