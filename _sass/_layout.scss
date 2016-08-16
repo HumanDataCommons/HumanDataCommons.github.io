@@ -387,6 +387,13 @@ html, body {
  * Post
  */
 
+.post-top {
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .post {
   padding: 6rem 0;
 
@@ -410,32 +417,25 @@ html, body {
     color: $grey-color;
   }
 
+  .post-disclaimer {
+    font-size: 0.75rem;
+    max-width: 10rem;
+    color: transparentize($grey-color, 0.2);
+  }
+
   .post-content {
     margin-bottom: $spacing-unit;
     font-size: 1.1rem;
 
-    h2 {
-      font-size: 32px;
-
-      @include media-query($on-laptop) {
-        font-size: 28px;
-      }
+    img {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
     }
 
-    h3 {
-      font-size: 26px;
-
-      @include media-query($on-laptop) {
-        font-size: 22px;
-      }
+    p {
+      width: 100%;
     }
 
-    h4 {
-      font-size: 20px;
-
-      @include media-query($on-laptop) {
-        font-size: 18px;
-      }
-    }
   }
 }

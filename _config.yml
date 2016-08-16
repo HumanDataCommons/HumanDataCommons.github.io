@@ -25,7 +25,9 @@ markdown: kramdown
 # Blog Header
 blog:
   title: HDC Foundation Blog
-  disclaimer: Me Frighten! Bork Bork!
+  disclaimer: >
+    The opinions expressed in this post are those of the author, and do not
+    necessarily reflect the views of the Human Data Commons Foundation.
   header: >
     Lorem ipsum dolor sit amet, consectetur adipisicing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

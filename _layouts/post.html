@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<section class="container">
+<section class="container-fluid">
   <div class="row">
+    {% if page.top_pic %}
+    <div class="post-top" style="background-image:url('{{page.top_pic}}')" alt="{{ page.top_pic_alt}}"></div>
+    {% endif %}
     <div class="col-md-8 col-md-offset-2">
       <article class="post">
-
         <header class="post-header">
           <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
           {% if page.author %}
@@ -20,6 +22,9 @@ layout: default
         <div class="post-content" itemprop="articleBody">
           {{ content }}
         </div>
+        <footer>
+          <span class="post-disclaimer">{{site.blog.disclaimer}}</span>
+        </footer>
       </article>
     </div>
   </div>
