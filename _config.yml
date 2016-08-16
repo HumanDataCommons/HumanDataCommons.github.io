@@ -8,23 +8,27 @@
 # Site settings
 title: Human Data Commons Foundation
 email: info@humandatacommons.org
+url: "http://humandatacommons.org"
 description: >
   Reclaim agency over your personal information,
   with the opportunity to make your data available
   for academics and researchers to further study
   across all aspects of human health, society, and culture
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://humandatacommons.org" # the base hostname & protocol for your site
+
+# the subpath of your site, e.g. /blog
+baseurl: ""
 twitter_username: hdcommons
 github_username:  HumanDataCommons
 reddit_sub: https://www.reddit.com/user/humandatacommons/m/hdc_foundation/top/
 markdown: kramdown
 
-# Collections
-collections:
-  frontpage_sections:
-  tag_pages:
-    output: true
+# Blog Header
+blog:
+  title: HDC Foundation Blog
+  disclaimer: Me Frighten! Bork Bork!
+  header: >
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 # Frontpage settings
 frontpage:
@@ -37,5 +41,10 @@ frontpage:
     for academics and researchers to further study
     across all aspects of human health, society, and culture
 
-# Build settings
-markdown: kramdown
+# Collections
+collections:
+  # Frontpage sections are located at '/_frontpage_sections'
+  frontpage_sections:
+  # Tags are located at '/_tag_pages'
+  tag_pages:
+    output: true

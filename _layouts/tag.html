@@ -14,7 +14,8 @@ layout: default
 </section>
 <section class="blogpage-section">
   <ul class="container-fluid post-list">
-    {% for post in site.tags[page.name] %}
+    {% assign posts = site.tags[page.name] | sort: 'date', 'first' %}
+    {% for post in posts %}
       <li class="post-item row text-xs-left" style="background-color:{{post.background_color}}">
         <div class="col-md-2 col-md-offset-2">
           <h6 class="card-subtitle post-date">{{ post.date | date: "%b %-d, %Y" }}</h6>
