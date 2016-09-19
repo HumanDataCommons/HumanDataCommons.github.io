@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The New Public Sphere: Personal Stories Construct Universal Realities"
+title:  "Technonarratives: Personal Stories Shape Universal Realities"
 date:   2016-09-18-11:05:34 -0700
 year: 2016
 month: September
