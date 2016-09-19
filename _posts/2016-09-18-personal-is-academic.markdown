@@ -16,7 +16,7 @@ Science, medicine, technology-- these disciplines aim to build verifiable models
 ---
 
 ![Retrieved from http://imgur.com/gallery/Pt7Sv](/images/blogpics/used/introreflections.jpg)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Image retrieved from [imgur meme collection](http://imgur.com/gallery/Pt7Sv), unable to find proper attribution*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Image retrieved from [imgur meme collection](http://imgur.com/gallery/Pt7Sv), unable to find proper attribution*
 
 ---
 
