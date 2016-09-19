@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Reflections: Personal Stories Construct Universal Realities"
-date:   2016-09-17-11:05:34 -0700
+date:   2016-09-18-11:05:34 -0700
 year: 2016
 month: September
 background_color: rgba(40,40,40, 0.1)
@@ -16,7 +16,7 @@ Science, medicine, technology-- these disciplines aim to build verifiable models
 ---
 
 ![Retrieved from http://imgur.com/gallery/Pt7Sv](/images/blogpics/used/introreflections.jpg)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Image retrieved from [imgur meme collection](http://imgur.com/gallery/Pt7Sv), unable to find proper attribution*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Image retrieved from [imgur meme collection](http://imgur.com/gallery/Pt7Sv), unable to find proper attribution*
 
 ---
 
