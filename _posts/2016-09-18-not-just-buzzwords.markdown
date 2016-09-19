@@ -47,7 +47,7 @@ True, the style sheet does not really accomplish anything on its own.[^1] It's a
 
 So then, let's say the rest of the project is in HTML. You could technically move forward with an HTML project without using CSS or anything like it, just defining and endlessly redefining style and formatting parameters within the code as you write it. However, it's time consuming, messy, and involves tons of unnecessary repetition along every step of the way. Why not just envision what you want the output to look like at the beginning, and store all that bigger-picture information in one neat and tidy place?
 
-Tying the metaphor back-- if all involved and interested parties sit down at the very beginning of a project and discuss what they'd like to see happen both in the short and long term, it prevents a bunch of potentially derailing squabbling and disorganization down the line.
+Tying the metaphor back-- if all involved and interested parties sit down at the very beginning of a project and discuss what they'd like to achieve both in the short and long term, it prevents a bunch of potentially derailing squabbling and disorganization down the line.
 
 Reaching an agreement ahead of time enables a smoother building process. It reduces the likelihood that important ethical decisions will have to be made on a rushed case-by-case basis. With all the cards on the table, individual creativity can actually flow more freely. The tech roadmap can shift and adapt as necessary, but the core vision serves as a steady marker of where that road should lead.
 
