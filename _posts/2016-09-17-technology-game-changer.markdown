@@ -16,6 +16,7 @@ Hey, I'm sure during the rise of factories most contemporary theorists were indu
 ***
 
 ![Retrieved from https://www.flickr.com/photos/sammy0716/3005591006](/images/blogpics/used/techgamechanger.jpg)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *Image retrieved from [Flickr user sammy0716](https://www.flickr.com/photos/sammy0716/3005591006), Creative Commons Attribution/Sharealike*
 
 ***
 
