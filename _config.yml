@@ -29,7 +29,7 @@ blog:
     The opinions expressed in this post are those of the author, and do not
     necessarily reflect the views of the Human Data Commons Foundation.
   header: >
-    
+
 
 # Frontpage settings
 frontpage:
@@ -47,5 +47,5 @@ collections:
   # Frontpage sections are located at '/_frontpage_sections'
   frontpage_sections:
   # Tags are located at '/_tag_pages'
-  tag_pages:
-    output: true
+  # tag_pages:
+  #   output: true
