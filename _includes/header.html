@@ -9,14 +9,14 @@
         {% for section in sections %}
         {% if section.link %}
         <li class="nav-item">
-          <a href="{{ section.title | slugify | prepend: '/#' }}" class="nav-link">{{ section.title | capitalize }}</a>
+          <a href="{{site.url}}{{ section.title | slugify | prepend: '/#' }}" class="nav-link">{{ section.title | capitalize }}</a>
         </li>
         {% endif %}
         {% endfor %}
 
         <!--  Blog Link -->
         <li class="nav-item">
-          <a href="/blog" class="nav-link">Blog</a>
+          <a href="/news" class="nav-link">News</a>
         </li>
       </ul>
     </div>
