@@ -24,10 +24,10 @@ markdown: kramdown
 
 # Blog Header
 blog:
-  title: HDC Foundation Blog
-  disclaimer: >
-    The opinions expressed in this post are those of the author, and do not
-    necessarily reflect the views of the Human Data Commons Foundation.
+  title: HDC Foundation News
+#  disclaimer: >
+#    The opinions expressed in this post are those of the author, and do not
+#    necessarily reflect the views of the Human Data Commons Foundation.
   header: >
 
 
