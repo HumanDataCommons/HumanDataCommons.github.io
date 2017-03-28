@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HDC Announced as Caretaker Node for IPDB"
-date:   2017-03-28 10:05:34 -0700
+date:   2017-03-28 06:05:34 -0700
 year: 2017
 month: March
 background_color: rgba(40,40,40, 0.1)
